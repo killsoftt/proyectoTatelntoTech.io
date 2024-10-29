@@ -95,7 +95,7 @@ main {
     text-align: center;
     padding: 20px;
     flex: 1 0 300px;
-    min-width: 250px; /* Ancho mínimo para cada tarjeta */
+    min-width: 250px; 
 }
 
 .card img {
