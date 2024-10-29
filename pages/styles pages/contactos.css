@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
     background-image: url(../../images/contacto1.png);
-    color: #333; /* Color de texto */
+    color: #333; 
     margin: 0;
     padding: 0;
 }
@@ -49,7 +49,7 @@ nav a:hover {
 
 .container {
     max-width: 30%;
-    margin: 0 auto; /* Centrar el contenedor */
+    margin: 0 auto; 
     padding: 40px;
 }
 
@@ -97,8 +97,8 @@ button {
 }
 
 footer {
-    background-color: #333; /* Color del pie de página */
-    color: #fff; /* Color del texto del pie de página */
+    background-color: #333;
+    color: #fff;
     padding: 20px 0;
     text-align: center;
     position: fixed;
@@ -106,7 +106,7 @@ footer {
     width: 100%;
 }
 
-/* Media Queries para responsividad */
+
 @media (max-width: 768px) {
     nav ul {
         display: flex;
