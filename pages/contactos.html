@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles pages/contactos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="reseñas.html">Reseñas</a></li>
+                <li><a href="contactos.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <div class="container">
+                <h2>Contáctanos</h2>
+                <form
+                action="https://formspree.io/f/manyqgqg"
+                method="POST">
+                <label>Your email:
+                    <input type="email" name="email">
+                </label>
+                <label>Your message:
+                <textarea name="message"></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit">Send</button>
+            </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CONSOLAS DE VIDEOJUEGOS.</p>
+    </footer>
+</body>
+</html>
+

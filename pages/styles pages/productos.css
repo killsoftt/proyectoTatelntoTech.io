@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image:url(../../images/productosback.png);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2, h3 {
+    font-family: "Danfo",Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "ELSH" 0;
+    font-size: 3em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+header {
+    background-color: #33333392;
+    color: #fff;
+    background-image: url(../../images/banner2.png);
+    padding: 20px 0;
+    margin: 10% auto;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #00000067;
+    font-weight: bold;
+}
+
+nav a {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+
+}
+
+main {
+    padding: 40px 0;
+}
+
+.productos {
+    background-color: #4e962544;
+    padding: 100px;
+    border-radius: 4%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: rgba(0, 255, 255, 0.178);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    flex: 1 0 300px;
+    min-width: 250px; /* Ancho mínimo para cada tarjeta */
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #dc0b7e;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+.card button {
+    background-color: #dc0b7e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .product-grid {
+        justify-content: flex-start;
+    }
+
+    .card {
+        flex: 1 0 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex: 1 0 100%;
+    }
+}
