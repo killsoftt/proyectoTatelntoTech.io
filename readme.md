@@ -12,7 +12,7 @@ CSS: Estilos y diseño de la página web
 JavaScript: (Si lo estás utilizando) Para funcionalidades interactivas
 Instalación y ejecución:
 
-Clonar el repositorio: git clone [URL del repositorio]
+Clonar el repositorio: git clone (https://killsoftt.github.io/proyectoTatelntoTech.io/)
 Abrir el archivo index.html: Abre el archivo index.html en tu navegador web.
 Características principales:
 
